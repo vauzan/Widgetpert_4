@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="238dp"
+            android:layout_height="166dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="41dp"
+            app:srcCompat="@mipmap/vauzan" />
+
+        <RadioGroup
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="147dp"
+            android:layout_marginTop="281dp">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRIA" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WANITA" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="102dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="295dp"
+            android:text="Gender"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="128dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="535dp"
+            android:text="Status"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="360dp"
+            android:text="Swimming" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="399dp"
+            android:text="Reading" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="111dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="402dp"
+            android:text="Hobby"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="436dp"
+            android:text="Coocking" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="512dp"
+            android:text="Belum Menilah" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="557dp"
+            android:text="Sudah Menikah" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="267dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="225dp"
+            android:text="Vauzan ulia"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
